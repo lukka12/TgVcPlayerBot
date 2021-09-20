@@ -11,7 +11,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**- 𝙃𝙚𝙮 𝘼𝙢 {bn} 💛🐬,
 
-- 𝙄 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥'𝙨 𝙫𝙤𝙞𝙘𝙚 𝙘𝙖𝙡𝙡. 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝙗𝙮 [𝙈𝘼𝙃𝙄](https://t.me/ALONE_BOY_XD_01) 💛🤞.
+- 𝙄 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥'𝙨 𝙫𝙤𝙞𝙘𝙚 𝙘𝙖𝙡𝙡. 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝙗𝙮 [𝘼𝙈𝘼𝙉](https://t.me/A_4_AMAN_official) 💛🤞.
 
 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙛𝙧𝙚𝙚𝙡𝙮 🐬💕**
         """,
@@ -19,17 +19,17 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                         " 𝙊𝙬𝙣𝙚𝙧 ", url="https://t.me/ALONE_BOY_XD_01")
+                         " 𝙊𝙬𝙣𝙚𝙧 ", url="https://t.me/A_4_AMAN_official")
                   ],[
                     InlineKeyboardButton(
-                        "💬 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/shivamdemon"
+                        "💬 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/ACF_OP_BOLTE"
                     ),
                     InlineKeyboardButton(
-                        "🔊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/BESTIES_FOREVER_LOVE"
+                        "🔊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/ACF_OP_BOLTE"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ 𝘼𝙙𝙙 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕", url="https://t.me/LEGEND_ALONE_MUSIC_BOT?startgroup=true"
+                        "➕ 𝘼𝙙𝙙 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕", url="https://t.me/ACF_MUSIC_BOT?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""** 𝘼𝙡𝙤𝙣𝙚 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧 𝙄𝙨 𝙊𝙣𝙡𝙞𝙣𝙚 ✅**""",
+      await message.reply_text("""**  𝘼𝘾𝙁 𝙋𝙡𝙖𝙮𝙚𝙧 𝙄𝙨 𝙊𝙣𝙡𝙞𝙣𝙚 ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/BESTIES_FOREVER_LOVE")
+                        "🔊 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/ACF_OP_BOLTE")
                 ]
             ]
         )
