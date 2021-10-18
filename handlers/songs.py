@@ -6,7 +6,6 @@ import asyncio
 import json
 import sys
 import time
-import yt_dlp
 from youtubesearchpython import SearchVideos
 from pyrogram import filters, Client
 from youtube_dl import YoutubeDL
