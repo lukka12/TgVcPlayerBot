@@ -10,7 +10,7 @@ import yt_dlp
 from youtubesearchpython import SearchVideos
 from pyrogram import filters, Client
 from yt_dlp import YoutubeDL
-from youtube_dl.utils import (
+from yt_dlp.utils import (
     ContentTooShortError,
     DownloadError,
     ExtractorError,
