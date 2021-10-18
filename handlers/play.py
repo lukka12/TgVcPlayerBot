@@ -8,7 +8,7 @@ from callsmusic.callsmusic import client as USER
 from helpers.admins import get_administrators
 import requests
 import aiohttp
-import youtube_dl
+import yt_dlp
 from youtube_search import YoutubeSearch
 import converter
 from downloaders import youtube
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**𝙃𝙚𝙮 𝙈𝙮 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙄𝙨 𝙅𝙤𝙞𝙣𝙚𝙙. 𝙃𝙪𝙧𝙧𝙧𝙚𝙮 🐬🤞**")
+                        message.chat.id, "**𝙃𝙚𝙮 𝙈𝙮 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩 𝙄𝙨 𝙅𝙤𝙞𝙣𝙚𝙙. 𝙃𝙪𝙧𝙧𝙧𝙚𝙮 🤞**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡 🔊",
-                        url="https://t.me/BESTIES_FOREVER_LOVE")
+                        text="𝙈𝙤𝙧𝙚 𝙄𝙣𝙛𝙤 🔊",
+                        url="https://t.me/astu_back")
                    
                 ]
             ]
