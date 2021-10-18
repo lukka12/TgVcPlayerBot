@@ -6,9 +6,10 @@ import asyncio
 import json
 import sys
 import time
+import yt_dlp
 from youtubesearchpython import SearchVideos
 from pyrogram import filters, Client
-from yt_dlp import YoutubeDL
+from youtube_dl import YoutubeDL
 from youtube_dl.utils import (
     ContentTooShortError,
     DownloadError,
